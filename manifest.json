@@ -1,0 +1,11 @@
+{
+    "id": "circuit-maker",
+    "name": "Circuit Maker",
+    "version": "0.0.1",
+    "minAppVersion": "0.12.0",
+    "description": "A customizable circuit maker plugin for Obsidian.",
+    "author": "Sumeja Buljugija",
+    "authorUrl": "https://github.com/yourusername",
+    "isDesktopOnly": false
+  }
+  

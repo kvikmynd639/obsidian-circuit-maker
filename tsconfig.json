@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "target": "ES6",
+      "module": "CommonJS",
+      "strict": true,
+      "esModuleInterop": true,
+      "outDir": "./dist",
+      "rootDir": "./src",
+      "sourceMap": true,
+      "types": ["obsidian", "node"],
+      "moduleResolution": "node"
+    },
+    "include": ["src"],
+    "exclude": ["node_modules"]
+  }
+  

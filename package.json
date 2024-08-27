@@ -1,0 +1,16 @@
+{
+  "name": "obsidian-circuit-maker",
+  "version": "0.0.1",
+  "description": "A customizable circuit maker plugin for Obsidian.",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "author": "Sumeja Buljugija",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.0.0",
+    "obsidian": "^0.12.0"
+  }
+}

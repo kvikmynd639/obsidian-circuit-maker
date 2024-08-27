@@ -1,0 +1,40 @@
+.circuit-maker-container {
+    display: flex;
+    height: 100%;
+  }
+  
+  .circuit-maker-toolbar {
+    width: 200px;
+    background-color: var(--background-secondary);
+    padding: 10px;
+    border-right: 1px solid var(--background-modifier-border);
+    overflow-y: auto;
+  }
+  
+  .circuit-component {
+    margin: 5px;
+    padding: 10px;
+    background-color: var(--background-primary);
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 4px;
+    cursor: grab;
+    text-align: center;
+  }
+  
+  .circuit-component-canvas {
+    margin: 5px;
+    padding: 10px;
+    background-color: var(--background-secondary);
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .circuit-maker-canvas {
+    flex-grow: 1;
+    background-color: var(--background-primary);
+    position: relative;
+    overflow: hidden;
+  }
+  
